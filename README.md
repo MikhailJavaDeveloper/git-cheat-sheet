@@ -95,3 +95,8 @@
 - **`modified`** (англ. «изменённый»)  
 Состояние `modified` значит, что Git сравнил содержимое файла с последней сохранённой версией и нашёл отличия. Например, файл был закоммичен и после этого изменён.  
 
+## Какие состояния показывает команда git status
+
+- `staged` (`Changes to be committed` в выводе `git status`);
+- `modified` (`Changes not staged for commit`);
+- `untracked` (`Untracked files`).
