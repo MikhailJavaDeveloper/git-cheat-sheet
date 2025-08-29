@@ -104,9 +104,6 @@ graph LR;
   modified -- "git add" --> staged;
   staged -- "git commit" --> tracked;
   tracked -- "Изменения" --> modified;
-
-%% стрелка без текста для примера: 
-  A --> B;
 ```
 
 ## Какие состояния показывает команда git status
